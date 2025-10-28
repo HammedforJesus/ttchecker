@@ -6,7 +6,7 @@ export default function ClassCard({ courseCode , level , startTime , endTime , a
 
 
     return (
-        <div className="card bg-base-200 w-96 shadow-sm h-max">
+        <div className="card bg-base-200 w-full md:w-[350px] shadow-sm h-max">
             <div className="card-body flex flex-col gap-4">
                 <div className="flex items-center justify-between">
                     <h2 className="card-title">{courseCode}</h2>
