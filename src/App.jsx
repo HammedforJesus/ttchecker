@@ -26,7 +26,7 @@ function App() {
         <select value={selectedCourse} onChange={(e) => setSelectedCourse(e.target.value)} className="select select-primary">
           <option disabled={true}>Select a programme</option>
           {programmes.map((p, i) => (
-            <option key={i}>{p}</option>
+            <option key={i}>{p.toUpperCase()}</option>
           ))}
         </select>
       </div>
