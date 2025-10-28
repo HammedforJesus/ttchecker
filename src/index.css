@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default ,  forest --prefersdark, retro;
+}
+
+body , html {
+  font-family: 'Bricolage Grotesque Variable', sans-serif;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+* {
+  font-family: "Bricolage Grotesque Variable" , sans-serif;
+}
+
