@@ -19,7 +19,7 @@ export default function ClassCard({ courseCode , level , startTime , endTime , a
                         <p>{startTime} - {endTime}</p>
                     </div>
 
-                    <div className={`badge ${ active ? 'badge-primary animate-pulse' : 'badge-error' }`}>{ active ? "Class Holding" : "No class Ongoing" }</div>
+                    <div className={`badge ${ active ? 'badge-primary animate-pulse' : 'badge-error' }`}>{ active ? "Class Holding" : "Not in session" }</div>
                 </div>
             </div>
         </div>
