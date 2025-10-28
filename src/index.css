@@ -3,6 +3,10 @@
   themes: light --default ,  forest --prefersdark, retro;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body , html {
   font-family: 'Bricolage Grotesque Variable', sans-serif;
   height: 100dvh;
