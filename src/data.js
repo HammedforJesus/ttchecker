@@ -2672,8 +2672,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "13:15",
-        "endTime": "10:15"
+        "startTime": "13:00",
+        "endTime": "14:00"
       }
     ]
   },
@@ -2684,8 +2684,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2696,8 +2696,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2708,8 +2708,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2720,8 +2720,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2732,8 +2732,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2744,8 +2744,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2756,8 +2756,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2768,8 +2768,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2780,8 +2780,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2792,8 +2792,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2804,8 +2804,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2816,8 +2816,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2912,8 +2912,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2924,8 +2924,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2936,8 +2936,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2948,8 +2948,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2960,8 +2960,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2972,8 +2972,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -2984,8 +2984,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -2996,8 +2996,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3008,8 +3008,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3020,8 +3020,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "06:45",
+        "endTime": "7:45"
       }
     ]
   },
@@ -3380,8 +3380,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -3392,8 +3392,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 4,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3404,8 +3404,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 4,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3416,8 +3416,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 4,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3428,8 +3428,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "06:45",
-        "endTime": "07:45"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3476,8 +3476,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3488,8 +3488,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3500,8 +3500,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3512,8 +3512,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3524,8 +3524,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -3536,8 +3536,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -3548,8 +3548,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -3560,8 +3560,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -3572,8 +3572,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3584,8 +3584,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3596,8 +3596,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3608,8 +3608,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3620,8 +3620,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3632,8 +3632,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3644,8 +3644,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -3656,8 +3656,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3680,8 +3680,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3692,8 +3692,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3704,8 +3704,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3716,8 +3716,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3728,8 +3728,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3740,8 +3740,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -3752,8 +3752,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -3764,8 +3764,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 5,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       },
       {
     "courseCode": "BIO 101",
