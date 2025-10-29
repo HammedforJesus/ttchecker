@@ -2612,8 +2612,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2624,8 +2624,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2636,8 +2636,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2648,8 +2648,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "13:00",
+        "endTime": "14:00"
       }
     ]
   },
@@ -2660,8 +2660,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "13:00",
+        "endTime": "14:00"
       }
     ]
   },
@@ -2672,7 +2672,7 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 3,
-        "startTime": "08:15",
+        "startTime": "13:15",
         "endTime": "10:15"
       }
     ]
