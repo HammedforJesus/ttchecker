@@ -4,7 +4,7 @@ export function getSchedule(programme) {
     const currentDayOfWeek = new Date().getDay();
 
     // Filter by programme
-    let filtered = courses.filter(c => c.programme.includes(programme.toLowerCase()));
+    let filtered = courses.filter(c => c.programme.map(p => p.toLowerCase()).includes(programme.toLowerCase()));
 
     // Keep only today's courses
     filtered = filtered.filter(c =>

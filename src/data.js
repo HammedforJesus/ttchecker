@@ -254,7 +254,7 @@ export const courses = [
     },
     {
         courseCode: "MTH 201",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","industrial chemistry"],
+        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
         level: "200",
         dayAndTime: [
             {
@@ -302,7 +302,7 @@ export const courses = [
     },
     {
         courseCode: "CYB 407",
-        programme: ["cybersecurity"],
+        programme: ["cyber security"],
         level: "400",
         dayAndTime: [
             {
@@ -338,7 +338,7 @@ export const courses = [
     },
     {
         courseCode: "GNS 211/ENT 211",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Public health","MLS","Accounting","Economics","Business administration","Mass communication","Criminology"],
+        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Public health","MLS","Accounting","Economics","Business administration","Mass communication","criminology and security studies"],
         level: "200",
         dayAndTime: [
             {
@@ -758,7 +758,7 @@ export const courses = [
     },
     {
         courseCode: "DOM-LRS 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Masscommunication","Criminology","Accounting","Industrial and personnel Management","Economics","Business Administration",],
+        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Masscommunication","criminology and security studies","Accounting","Industrial and personnel Management","Economics","Business Administration",],
         level: "100",
         dayAndTime: [
             {
@@ -878,7 +878,7 @@ export const courses = [
     },
     {
         courseCode: "DOM-CYB 207/CYB 207",
-        programme: ["cybersecurity"],
+        programme: ["cyber security"],
         level: "200",
         dayAndTime: [
             {
@@ -1274,7 +1274,7 @@ export const courses = [
     },
     {
         courseCode: "COS 101/CSC 101/AMS 103/SSC 202",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Accounting","Industrial and personnel Management","Business Administration","criminology"],
+        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Accounting","Industrial and personnel Management","Business Administration","criminology and security studies"],
         level: "100",
         dayAndTime: [
             {
@@ -1310,7 +1310,7 @@ export const courses = [
     },
     {
         courseCode: "BIO 107",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","industrial chemistry"],
+        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
         level: "100",
         dayAndTime: [
             {
@@ -1730,7 +1730,7 @@ export const courses = [
     },
     {
         courseCode: "COS 101/CSC 101/AMS 103/SSC 202",
-        programme:["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","industrial chemistry"],
+        programme:["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
         level: "100",
         dayAndTime: [
             {
@@ -2001,7 +2001,7 @@ export const courses = [
       {
         "day": 1,
         "startTime": "13:00",
-        "endTime": "15:00"
+        "endTime": "14:00"
       }
     ]
   },
@@ -2013,7 +2013,7 @@ export const courses = [
       {
         "day": 1,
         "startTime": "13:00",
-        "endTime": "15:00"
+        "endTime": "14:00"
       }
     ]
   },
@@ -2096,8 +2096,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2108,8 +2108,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2120,8 +2120,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -2132,8 +2132,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "14:00"
       }
     ]
   },
@@ -2144,8 +2144,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "14:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -2156,8 +2156,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "15:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2168,8 +2168,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "09:15",
+        "endTime": "10:15"
       }
     ]
   },
@@ -2252,8 +2252,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2264,8 +2264,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2276,8 +2276,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2288,8 +2288,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2300,8 +2300,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2361,7 +2361,7 @@ export const courses = [
       {
         "day": 2,
         "startTime": "13:00",
-        "endTime": "15:00"
+        "endTime": "14:00"
       }
     ]
   },
@@ -2373,7 +2373,7 @@ export const courses = [
       {
         "day": 2,
         "startTime": "13:00",
-        "endTime": "15:00"
+        "endTime": "14:00"
       }
     ]
   },
@@ -2384,8 +2384,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2396,8 +2396,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2408,8 +2408,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2420,8 +2420,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2432,8 +2432,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2444,8 +2444,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "14:00"
       }
     ]
   },
@@ -2456,8 +2456,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2468,8 +2468,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2480,8 +2480,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "14:00",
+        "endTime": "16:00"
       }
     ]
   },
@@ -2492,8 +2492,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
+        "startTime": "16:00",
+        "endTime": "18:00"
       }
     ]
   },
@@ -2540,8 +2540,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "10:15",
+        "endTime": "12:15"
       }
     ]
   },
@@ -2552,8 +2552,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -2564,8 +2564,8 @@ export const courses = [
     "dayAndTime": [
       {
         "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
+        "startTime": "13:00",
+        "endTime": "15:00"
       }
     ]
   },
@@ -3766,8 +3766,338 @@ export const courses = [
         "day": 5,
         "startTime": "16:00",
         "endTime": "18:00"
+      },
+      {
+    "courseCode": "BIO 101",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 1,
+        "startTime": "08:15",
+        "endTime": "10:15"
       }
     ]
+  },
+  {
+    "courseCode": "PHS 201",
+    "programme": ["public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 1,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "STA 201 / PHS 202",
+    "programme": ["public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 1,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "ANA 203",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 1,
+        "startTime": "13:00",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "ANA 201",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 1,
+        "startTime": "15:00",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "GNS 211 / ENT 211",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 2,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "MTH 101",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 2,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "DOM-NSC 201",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 2,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "CHM 107 / DOM-CHM 107",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 2,
+        "startTime": "13:00",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "NURSING DEMONSTRATION",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 2,
+        "startTime": "13:00",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "DOM-LRS 101",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "PHS 203",
+    "programme": ["public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "PIO 203",
+    "programme": ["public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "PIO 201",
+    "programme": ["public health"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "PHY 107",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "15:00",
+        "endTime": "18:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "BCH 203",
+    "programme": ["medical laboratory science"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 3,
+        "startTime": "13:00",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "PHY 101",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 4,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "NSC 201",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 4,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      },
+      {
+        "day": 4,
+        "startTime": "13:00",
+        "endTime": "14:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "BIO 107",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 4,
+        "startTime": "13:00",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "COS 101 / CSC 101 / AMS 103 / SSC 202",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "14:00",
+        "endTime": "15:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "BCH 201",
+    "programme": ["medical laboratory science"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 4,
+        "startTime": "14:00",
+        "endTime": "16:00"
+      }
+    ]
+  },
+  {
+    "courseCode": "GST 111",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "MCB 221 / MCB 201",
+    "programme": ["medical laboratory science"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "08:15",
+        "endTime": "10:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "CHM 101 / DOM-CHM 101",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "MLS 201",
+    "programme": ["medical laboratory science"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "COS 101 / CSC 101 / AMS 103 / SSC 202",
+    "programme": ["nursing", "medical laboratory science", "public health"],
+    "level": "100",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "10:15",
+        "endTime": "12:15"
+      }
+    ]
+  },
+  {
+    "courseCode": "NSC 203",
+    "programme": ["nursing"],
+    "level": "200",
+    "dayAndTime": [
+      {
+        "day": 5,
+        "startTime": "10:15",
+        "endTime": "11:15"
+      }
+    ]
+  }
+]
+    
   }
 
 ]
