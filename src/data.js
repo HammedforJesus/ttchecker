@@ -1,4 +1,39 @@
 
+export const course_forms = [
+  {
+    matricNumber: "DU0640",
+    courseCode: "BIO 101"
+  },
+  {
+    matricNumber: "DU0640",
+    courseCode: "SEN 307"
+  },
+  {
+    matricNumber: "DU0640",
+    courseCode: "CSC 303"
+  },
+  {
+    matricNumber: "DU0904",
+    courseCode: "CYB 409"
+  },
+  {
+    matricNumber: "DU0904",
+    courseCode: "MCB 423"
+  },
+  {
+    matricNumber: "DU0904",
+    courseCode: "SEN 309"
+  },
+  {
+    matricNumber: "DU0904",
+    courseCode: "DOM-CYB 205"
+  },
+  {
+    matricNumber: "DU0904",
+    courseCode: "GNS 211/ENT 211"
+  },
+]
+
 export const courses = [
     {
         courseCode: "BIO 101",
@@ -766,7 +801,7 @@ export const courses = [
                 startTime: "08:15",
                 endTime: "10:15"
             }
-        ],
+     ],
     },
     {
         courseCode: "DOM-CYB 205",
