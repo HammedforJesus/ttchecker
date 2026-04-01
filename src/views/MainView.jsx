@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { course_forms } from '../data'
 import { Scanner } from '@yudiel/react-qr-scanner'
+import { Link } from '@tanstack/react-router'
 
 
 const MainView = ({
@@ -40,13 +41,17 @@ const MainView = ({
 
             <input
                 type="text"
-                className='w-full text-center input input-ghost'
-                placeholder='MATRICULATION NUMBER'
+                className='text-center input input-neutral mx-auto w-full md:w-100'
+                placeholder='ENTER MATRICULATION NUMBER'
                 value={matricNumber}
                 onChange={e => setMatricNumber(e.currentTarget.value.trim().toUpperCase())}
             />
 
-            <button className='btn btn-primary w-full' onClick={handleClick}>Check</button>
+            <button className='btn btn-primary mx-auto w-full md:w-100' onClick={handleClick}>Check</button>
+
+            <Link className='btn btn-ghost mx-auto w-full md:w-100' to="/">
+                Back to Timetable
+            </Link>
         </div>
     )
 }

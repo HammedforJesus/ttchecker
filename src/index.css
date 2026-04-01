@@ -9,11 +9,14 @@
 
 body , html {
   font-family: 'Bricolage Grotesque Variable', sans-serif;
-  height: 100dvh;
-  width: 100dvw;
 }
 
 * {
   font-family: "Bricolage Grotesque Variable" , sans-serif;
 }
 
+@layer base {
+  body , html , #root {
+    @apply h-svh w-screen
+  }
+}
