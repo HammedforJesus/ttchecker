@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { course_forms } from '../data'
+import { course_forms } from '../course-forms'
 import { Scanner } from '@yudiel/react-qr-scanner'
 import { Link } from '@tanstack/react-router'
 

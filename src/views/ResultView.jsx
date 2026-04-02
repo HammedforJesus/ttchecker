@@ -35,7 +35,7 @@ const ResultView = ({ courses , matricNumber , onBack }) => {
                 courses.length ?
                     <section className='flex-1 flex flex-col items-center gap-4 overflow-y-auto py-4'>
                         {courses.map((c, i) => (
-                            <ClassCard key={i} level={`${c.level} LEVEL`} courseCode={c.courseCode} startTime={c.dayAndTime[0].startTime} endTime={c.dayAndTime[0].endTime} active={c.dayAndTime[0].classActive} />
+                            <ClassCard key={i} {...c} />
                         ))}
                     </section>
                     :
