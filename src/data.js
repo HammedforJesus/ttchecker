@@ -1,4103 +1,2670 @@
+export const courses_fcas = [
 
-export const courses = [
-    {
-        courseCode: "BIO 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Public health","MLS"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 405",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 303",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 307",
-        programme: ["software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-SEN 205/SEN 205",
-        programme: ["software engineering"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 409",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 407",
-        programme: ["software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 307",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 455",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "09:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 423",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "09:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 415",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 309",
-        programme: ["Software Engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 319",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "COS 201/CSC 201",
-        programme: ["Computer Science"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 405",
-        programme: ["Cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "11:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "STA 111",
-        programme: ["Cyber security","computer science","software engineering"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "2:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 401",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 321",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 309",
-        programme: ["Cyber security"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 351",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 451",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MTH 201",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 307/SEN 305",
-        programme: ["computer science","software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 301",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 405",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 407",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "STA 203",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 325",
-        programme: ["Microbiology"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 1,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "GNS 211/ENT 211",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Public health","MLS","Accounting","Economics","Business administration","Mass communication","criminology and security studies"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 401",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 321",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 407",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 401",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 407",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 311",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 423",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 307",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "08:15",
-                endTime: "09:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 301",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "09:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 309",
-        programme: ["Microbiology"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 303",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 301",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 307",
-        programme: ["cyber security"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MTH 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 407",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 305",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 231",
-        programme: ["Microbiology"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 415",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "10:15",
-                endTime: "11:15"
-            }
-        ],
-    },
-    {
-        courseCode: "STA 343",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 311",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 405",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "COS 201/CSC 201",
-        programme: ["computer science"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 107/DOM-CHM 107",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Public health","mls"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 211",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 407",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 357",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 455",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 409",
-        programme: ["software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 481",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 307",
-        programme: ["Microbiology"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 411/SEN 411",
-        programme: ["computer science","software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 301",
-        programme: ["cyber security"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 401",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 453",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 2,
-                startTime: "15:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-LRS 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Masscommunication","criminology and security studies","Accounting","Industrial and personnel Management","Economics","Business Administration",],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CYB 205",
-        programme: ["cyber security"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 301",
-        programme: ["software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 419",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 305",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 355",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 425",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "08:15",
-                endTime: "09:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 423",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "09:15",
-                endTime: "11:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 419",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "09:15",
-                endTime: "11:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CSC 207/CSC 211",
-        programme: ["computer science"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CYB 207/CYB 207",
-        programme: ["cyber security"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "STA 343",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 305",
-        programme: ["cyber security"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-MCB 205",
-        programme: ["Microbiology"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 411/SEN 411",
-        programme: ["computer science","software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "11:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 307",
-        programme: ["Microbiology"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CSC 207/CSC 211",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 402",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 423",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 303",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 203",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 333",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "13:00",
-                endTime: "14:00"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CSC 205/CSC 207",
-        programme: ["computer science"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 312/CYB 312",
-        programme: ["computer science","cyber security"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 407",
-        programme: ["software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 417",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 301",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 313",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "PHY 107",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","mls","public health"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "15:00",
-                endTime: "18:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 453",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "14:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BOT 305",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "15:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 403",
-        programme: ["software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 3,
-                startTime: "16:00",
-                endTime: "18:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 311",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "11:15"
-            }
-        ],
-    },
-    {
-        courseCode: "PHY 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","mls","public health"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-MCB 209",
-        programme: ["Microbiology"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 413",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 317",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 401",
-        programme: ["software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 203",
-        programme: ["cyber security"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 403",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 403",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "11:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 463",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 411",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "COS 101/CSC 101/AMS 103/SSC 202",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing","Accounting","Industrial and personnel Management","Business Administration","criminology and security studies"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 305",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 403",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BIO 107",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 457",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 309",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 301",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 403",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 405",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 317",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 301",
-        programme: ["software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CYB 207/CYB 207",
-        programme: ["cyber security"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "13:00",
-                endTime: "15:00"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 433",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 201",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 201",
-        programme: ["software engineering"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-CSC 203 CSC 205/SEN 210",
-        programme: ["computer science","software engineering"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 333",
-        programme: ["computer science"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 251",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 4,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "GST 111",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology",,"nursing","MLS",],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 425",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 201",
-        programme: ["cyber security"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 303",
-        programme: ["Biochemistry"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 441/SEN 404",
-        programme: ["computer science","software engineering"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 221/MCB 201",
-        programme: ["Microbiology"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 405",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 307/SEN 305",
-        programme: ["computer science","software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 303/SEN 307",
-        programme: ["computer science","software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "08:15",
-                endTime: "10:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 403",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 101/DOM-CHM 101",
-        programme: ["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CYB 303",
-        programme: ["cyber security"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 401",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "IFT 211/SEN 204",
-        programme: ["software engineering"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "SEN 303",
-        programme: ["software engineering"],
-        level: "300",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 215",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "DOM-MCB 207",
-        programme: ["Microbiology"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "MCB 481",
-        programme: ["Microbiology"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "10:15",
-                endTime: "11:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 453",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "11:15",
-                endTime: "12:15"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 451",
-        programme: ["Biochemistry"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "COS 101/CSC 101/AMS 103/SSC 202",
-        programme:["computer science","cyber security","software engineering","biochemistry","microbiology","nursing"],
-        level: "100",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CSC 421",
-        programme: ["computer science"],
-        level: "400",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "BCH 201",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 251",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    {
-        courseCode: "CHM 215",
-        programme: ["Biochemistry"],
-        level: "200",
-        dayAndTime: [
-            {
-                day: 5,
-                startTime: "14:00",
-                endTime: "16:00"
-            }
-        ],
-    },
-    
-  {
-    "courseCode": "GST 111",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 411",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 217",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 213/IRP 315",
-    "programme": ["accounting", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 401",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUA 201/DOM-BUA 201",
-    "programme": ["business administration"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 313",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 207",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-STA 101/SMS 101",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 303",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CMS 101",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 211",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 419",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 411",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 411",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 313",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 403",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 203",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 415",
-    "programme": ["accounting"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 323",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 311",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MGT 403",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 415",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 203/DOM-ACC 203/EHR 203",
-    "programme": ["accounting", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 215",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 301",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 201",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "SOC 101/DOM-SOC 101/DOM-CRM 105",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 301",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 301/BUA 303",
-    "programme": ["business administration"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "14:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MGT 321",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "15:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 319",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "09:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 303/ACC 311",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "06:45",
-        "endTime": "07:45"
-      }
-    ]
-  },
-  {
-    "courseCode": "ENT 211/GST 211",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 409",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 401",
-    "programme": ["accounting"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 401",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 303",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "SMS 301",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-MAS 203",
-    "programme": ["industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 411",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MGT 321",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 417",
-    "programme": ["accounting"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 101/DOM-ACC 101",
-    "programme": ["accounting"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "IRP 307",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 201",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 207",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 411",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 201/DOM-ACC 201",
-    "programme": ["accounting"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 401",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 103",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 203/CRM 204/CRM 215",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 301/BUA 303",
-    "programme": ["business administration"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 325",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-ACC 111",
-    "programme": ["accounting"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 223/DOM-LAW 201",
-    "programme": ["business administration"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 403",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 411",
-    "programme": ["accounting"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUA 205/DOM-BUA 205",
-    "programme": ["business administration"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 301",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 305",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "SOC 101/DOM-SOC 101/DOM-CRM 105",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 107",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 309",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 101",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-LRS 101",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 405",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 315",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 321",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 415",
-    "programme": ["accounting"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 413",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 101",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 317",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 101/DOM-ACC 101",
-    "programme": ["accounting"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 211",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 215",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 309",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 105",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 315",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "GST 221",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 421",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "IRP 409",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 305",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MGT 211/DOM-MKT 201",
-    "programme": ["industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 315/MGT 307",
-    "programme": ["accounting", "industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 209/DOM-ECO 209",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 413",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 409",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 213/CRM 203",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 303/ACC 311",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 405",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "SMS 203/DOM-COM 201",
-    "programme": ["industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "EHR 207",
-    "programme": ["industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 311",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUA 101/BUS 101/DOM-BUA 101/DOM-BUS 101",
-    "programme": ["business administration"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 203/DOM-ACC 203/EHR 203",
-    "programme": ["accounting", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "IRP 311",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 413",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 311",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 401",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 413/ACC 305/BUA 305",
-    "programme": ["accounting", "business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 103",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 105",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "06:45",
-        "endTime": "7:45"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 313",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CMS 201/MAS 107",
-    "programme": ["mass communication", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 315",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 311",
-    "programme": ["business administration"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "IRP 317",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-MGT 201",
-    "programme": ["industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 205",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 417",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 319",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 403",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 201/DOM-ACC 201",
-    "programme": ["accounting"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 405",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 317",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-ECO 211",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "AMS 103/CSC 101/COS 101/SSC 202",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 103",
-    "programme": ["economics"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 207",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-CSS 109",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 213",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 313",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 301",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 205",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 421",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 203",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 307",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 309",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 305/EHR 205/IRP 309",
-    "programme": ["business administration", "industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 405",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 407",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 103",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "16:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 417",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-MAS 101",
-    "programme": ["industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 209",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 417",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 101/DOM-ECO 101",
-    "programme": ["economics"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 101",
-    "programme": ["mass communication"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 313",
-    "programme": ["criminology and security studies"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 415",
-    "programme": ["industrial and personnel management"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 205",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 209",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "AMS 101/DOM-AMS 101",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "AMS 103/CSC 101/COS 101/SSC 202",
-    "programme": ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCM 213",
-    "programme": ["mass communication"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 315/MGT 307",
-    "programme": ["accounting", "industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 101",
-    "programme": ["criminology and security studies"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "CRM 407",
-    "programme": ["criminology and security studies"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ACC 319",
-    "programme": ["accounting"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 307",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 403",
-    "programme": ["economics"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CIL 303",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 201/EHR 101/EHR 201",
-    "programme": ["business administration", "industrial and personnel management"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CYB 201",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 303",
-    "programme": ["economics"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-ACC 205",
-    "programme": ["accounting"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUA 203",
-    "programme": ["business administration"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 309",
-    "programme": ["business administration"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MAS 305",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 203",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-LAW 203/IRP 311",
-    "programme": ["industrial and personnel management"],
-    "level": "300",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CSS 201/CRM 205",
-    "programme": ["criminology and security studies"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "BUS 401",
-    "programme": ["business administration"],
-    "level": "400",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ECO 205",
-    "programme": ["economics"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      },
-      {
-    "courseCode": "BIO 101",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "PHS 201",
-    "programme": ["public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "STA 201 / PHS 202",
-    "programme": ["public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "ANA 203",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "ANA 201",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 1,
-        "startTime": "15:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "GNS 211 / ENT 211",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MTH 101",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-NSC 201",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CHM 107 / DOM-CHM 107",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "NURSING DEMONSTRATION",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 2,
-        "startTime": "13:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "DOM-LRS 101",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "PHS 203",
-    "programme": ["public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "PIO 203",
-    "programme": ["public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "PIO 201",
-    "programme": ["public health"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "PHY 107",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "15:00",
-        "endTime": "18:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BCH 203",
-    "programme": ["medical laboratory science"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 3,
-        "startTime": "13:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "PHY 101",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "NSC 201",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      },
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "14:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BIO 107",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "13:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "COS 101 / CSC 101 / AMS 103 / SSC 202",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "14:00",
-        "endTime": "15:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "BCH 201",
-    "programme": ["medical laboratory science"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 4,
-        "startTime": "14:00",
-        "endTime": "16:00"
-      }
-    ]
-  },
-  {
-    "courseCode": "GST 111",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MCB 221 / MCB 201",
-    "programme": ["medical laboratory science"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "08:15",
-        "endTime": "10:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "CHM 101 / DOM-CHM 101",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "MLS 201",
-    "programme": ["medical laboratory science"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "COS 101 / CSC 101 / AMS 103 / SSC 202",
-    "programme": ["nursing", "medical laboratory science", "public health"],
-    "level": "100",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "12:15"
-      }
-    ]
-  },
-  {
-    "courseCode": "NSC 203",
-    "programme": ["nursing"],
-    "level": "200",
-    "dayAndTime": [
-      {
-        "day": 5,
-        "startTime": "10:15",
-        "endTime": "11:15"
-      }
-    ]
-  }
-]
-    
-  }
+  // ==================== MONDAY (day: 1) ====================
 
-]
+  {
+    courseCode: "BIO 102",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr. Akoun/Mrs Oluwajimi",
+    venue: "LT",
+  },
+  {
+    courseCode: "CHM 410",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Olaniran/Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 328",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Ms. Oloruntoba",
+    venue: "MBL",
+  },
+  {
+    courseCode: "MTH 202",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Ajayi",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "DOM-CYB 202",
+    programme: ["cyber security"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mrs Ogundipe",
+    venue: "SL",
+  },
+  {
+    courseCode: "CSC 310",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Ms Aromavo",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "COS 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "LT",
+  },
+  {
+    courseCode: "SEN 410",
+    programme: ["software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Ige",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "CSC 404",
+    programme: ["computer science"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Ms Aromavo",
+    venue: "HL",
+  },
+  {
+    courseCode: "MCB 412",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Ikejiama",
+    venue: "MBL",
+  },
+  {
+    courseCode: "BCH 302",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr John",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "CHM 304",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-MCB 206",
+    programme: ["microbiology"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mrs Olayinka",
+    venue: "CAS 1",
+  },
+   {
+    courseCode: "CHM 422",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Olaniran",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 418",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr Olojo",
+    venue: "LO",
+  },
+  {
+    courseCode: "CHM 108/DOM-CHM 108",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "17:00" }],
+    lecturer: "Mrs Hassan",
+    venue: "CSL",
+  },
+  {
+    courseCode: "CHM 356",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 306",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Mr Adeyeye",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "DOM-MCB 204",
+    programme: ["microbiology"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms. Oloruntoba",
+    venue: "MBL",
+  },
+  {
+    courseCode: "CSC 494/CYB 412/SEN 412",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "ALL CSC LECTURERS",
+    venue: "SL",
+  },
+  {
+    courseCode: "CSC 408/SEN 308",
+    programme: ["computer science", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr Ige",
+    venue: "SL",
+  },
+  {
+    courseCode: "ZOO 312",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Oluwajinmi",
+    venue: "MBL",
+  },
+  {
+    courseCode: "MCB 322",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Dr. Ikiejiam",
+    venue: "CAS 1",
+  },
+
+  // ==================== TUESDAY (day: 2) ====================
+
+//   {
+//     courseCode: "CHM 422",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+//     lecturer: "Mr Olaniran",
+//     venue: "LO",
+//   },
+//   {
+//     courseCode: "BCH 418",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+//     lecturer: "Dr Olojo",
+//     venue: "LO",
+//   },
+  {
+    courseCode: "GST 112",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS", "accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "LT",
+  },
+  {
+    courseCode: "MCB 404",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Prof. Adegoke",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 326",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr. Moses",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "BCH 306",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Adeyeye",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "BCH 310",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr Olojo",
+    venue: "CSL",
+  },
+  {
+    courseCode: "DOM-CHM 254",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Ms Olayemi",
+    venue: "FBR",
+  },
+  {
+    courseCode: "DOM-CSC 206",
+    programme: ["computer science"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Mr Muritala",
+    venue: "HL",
+  },
+  {
+    courseCode: "BCH 202",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Olaleye/Mr Akinboro",
+    venue: "LT",
+  },
+  {
+    courseCode: "COS 102",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Muritala",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "MCB 332",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Prof. Adegoke",
+    venue: "MBL",
+  },
+  {
+    courseCode: "CHM 406",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 408",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Olojo",
+    venue: "CSL",
+  },
+  {
+    courseCode: "SEN 402",
+    programme: ["software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Ogundipe",
+    venue: "HL",
+  },
+  {
+    courseCode: "BIO 108",
+    programme: ["microbiology", "biochemistry", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "MBL",
+  },
+  {
+    courseCode: "DOM-CHM 210",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Mr Olaniran",
+    venue: "CSL",
+  },
+  {
+    courseCode: "ZOO 312",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Mrs Oluwajinmi",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "ZOO 412",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "15:00", endTime: "16:00" }],
+    lecturer: "Mrs Olayinka",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CHM 316",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "SEN 102",
+    programme: ["software engineering"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Ige",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "COS 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "COS 302",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "CYB 404/SEN 414",
+    programme: ["cyber security", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Ogundipe",
+    venue: "HL",
+  },
+  {
+    courseCode: "CYB 406",
+    programme: ["cyber security"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Barr. Adetoyinbo",
+    venue: "SL",
+  },
+
+  // ==================== WEDNESDAY (day: 3) ====================
+
+  {
+    courseCode: "CSC 482/SEN 318",
+    programme: ["computer science", "software engineering"],
+    level: "400",
+    dayAndTime: [
+      { day: 2, startTime: "08:15", endTime: "10:15" },
+      
+    ],
+    lecturer: "Ms Aromavo",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "INS 204",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "15:00", endTime: "16:00" }],
+    lecturer: "Mr Muritala",
+    venue: "FBR",
+  },
+  {
+    courseCode: "CSC 408/SEN 308",
+    programme: ["computer science", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr Ige",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "GST 212",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS", "accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "LT",
+  },
+  {
+    courseCode: "SEN 406",
+    programme: ["software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Ige",
+    venue: "SL",
+  },
+  {
+    courseCode: "CYB 408",
+    programme: ["cyber security"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mrs Ogundipe",
+    venue: "HL",
+  },
+  {
+    courseCode: "MCB 424",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr. Itor",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CHM 252",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 404",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr Olaleye",
+    venue: "CSL",
+  },
+  {
+    courseCode: "MTH 102/DOM-NSC 102",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Ajayi",
+    venue: "LT",
+  },
+  {
+    courseCode: "CSC 492/CYB 492/SEN 492",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "ALL CSC LECTURERS",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 322",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Ikejiama",
+    venue: "MBL",
+  },
+  {
+    courseCode: "MCB 408",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Taylor",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CHM 358",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr Olojo",
+    venue: "LO",
+  },
+  {
+    courseCode: "CSC 302",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "PHY 108",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "17:00" }],
+    lecturer: "Mr Iwasokun",
+    venue: "HL",
+  },
+  {
+    courseCode: "SEN 410",
+    programme: ["software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Ige",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "DOM-CYB 202",
+    programme: ["cyber security"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Ogundipe",
+    venue: "HL",
+  },
+//   {
+//     courseCode: "CSC 302",
+//     programme: ["computer science"],
+//     level: "300",
+//     dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+//     lecturer: "Ms Ayediran",
+//     venue: "SL",
+//   },
+  {
+    courseCode: "CSC 308",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms Aromavo",
+    venue: "SL",
+  },
+  {
+    courseCode: "CHM 254/DOM-CHM 203",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 326",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Mr. Itor",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "BCH 412",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "15:00", endTime: "16:00" }],
+    lecturer: "Mr Akinboro/Mr John",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "MCB 412",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Ikejiama",
+    venue: "CAS 1",
+  },
+
+  // ==================== THURSDAY (day: 4) ====================
+
+  {
+    courseCode: "BCH 314",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Akinboro",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "SSC 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran/Mr Egor",
+    venue: "SL",
+  },
+  {
+    courseCode: "BCH 406",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Adeyeye",
+    venue: "CSL",
+  },
+  {
+    courseCode: "BCH 308",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr Olaleye",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "DOM-BCH 212",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Akinboro/Mr John",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "CHM 400",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "All Lecturers",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 312",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Mr Adeyeye",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "CHM 492",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "All lecturers",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 490",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "All lecturers",
+    venue: "LO",
+  },
+  {
+    courseCode: "CHM 420",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Dr olojo/Mrs oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "CHM 308",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Mrs Hassan",
+    venue: "CSL",
+  },
+  {
+    courseCode: "CHM 454",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "PHY 102",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Iwasokun",
+    venue: "LT",
+  },
+  {
+    courseCode: "CSC 318",
+    programme: ["computer science", "cyber security"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Dr Ayeni",
+    venue: "HL",
+  },
+  {
+    courseCode: "DOM-CSC 208",
+    programme: ["computer science"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Muritala",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "DOM-CYB 204",
+    programme: ["cyber security"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Okunlola",
+    venue: "FBR",
+  },
+  {
+    courseCode: "BCH 402",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Akinboro",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CHM 322",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr Olaniran",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 414",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "Mr. Itor",
+    venue: "MBL",
+  },
+  {
+    courseCode: "BCH 318",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "10:15" }],
+    lecturer: "D. Olaleye/Mr Adeyeye",
+    venue: "CSL",
+  },
+  {
+    courseCode: "IFT 212",
+    programme: ["software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr Ayeni",
+    venue: "HL",
+  },
+  {
+    courseCode: "CSC 332",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [
+      { day: 3, startTime: "08:15", endTime: "10:15" },
+    ],
+    lecturer: "Mr Muritala",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "CSC 332",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [
+      { day: 4, startTime: "10:15", endTime: "12:15" }
+    ],
+    lecturer: "Mr Muritala",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "CYB 410",
+    programme: ["cyber security"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Okunlola",
+    venue: "LT",
+  },
+  {
+    courseCode: "SEN 408",
+    programme: ["software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Ige",
+    venue: "SL",
+  },
+  {
+    courseCode: "BTG 202",
+    programme: ["biochemistry", "microbiology"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Akoun",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "MCB 324",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Dr. Taylor",
+    venue: "MBL",
+  },
+  {
+    courseCode: "CHM 312",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mrs Hassan/Mr Olaniran",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 414",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Adeyeye",
+    venue: "CSL",
+  },
+  {
+    courseCode: "BCH 304",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "12:15" }],
+    lecturer: "Mr Akinboro",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "DOM-MCB 102/DOM-NSC/MLS 104",
+    programme: ["microbiology", "nursing", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Dr. Taylor/Mrs Olayinka",
+    venue: "LT",
+  },
+  {
+    courseCode: "CHM 212",
+    programme: ["biochemistry"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "16:00" }],
+    lecturer: "Ms Olayemi",
+    venue: "CSL",
+  },
+  {
+    courseCode: "BCH 412",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr John Oladipo/Mr Akinboro",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CSC 316",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr Ayeni",
+    venue: "HL",
+  },
+  {
+    courseCode: "CHM 316",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "CHM 304",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCB 424",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Itor",
+    venue: "CAS 2",
+  },
+//   {
+//     courseCode: "CHM 400",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "All Lecturers",
+//     venue: "LO",
+//   },
+//   {
+//     courseCode: "BCH 312",
+//     programme: ["biochemistry"],
+//     level: "300",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "Mr Adeyeye",
+//     venue: "CAS 2",
+//   },
+//   {
+//     courseCode: "CHM 492",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "All lecturers",
+//     venue: "LO",
+//   },
+//   {
+//     courseCode: "BCH 490",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "All lecturers",
+//     venue: "LO",
+//   },
+//   {
+//     courseCode: "CHM 420",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+//     lecturer: "Dr Olojo/Mrs Oyelahan",
+//     venue: "LO",
+//   },
+//   {
+//     courseCode: "CHM 308",
+//     programme: ["biochemistry"],
+//     level: "300",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "Mrs Hassan",
+//     venue: "CSL",
+//   },
+//   {
+//     courseCode: "CHM 454",
+//     programme: ["biochemistry"],
+//     level: "400",
+//     dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+//     lecturer: "Ms Olayemi",
+//     venue: "LO",
+//   },
+  {
+    courseCode: "DOM-SEN 202",
+    programme: ["software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "16:00", endTime: "18:00" }],
+    lecturer: "Dr Ayeni",
+    venue: "CAS 1",
+  },
+
+  // ==================== FRIDAY (day: 5) ====================
+
+  {
+    courseCode: "CSC 310",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "9:15" }],
+    lecturer: "Ms Aromavo",
+    venue: "HL",
+  },
+  {
+    courseCode: "CSC 406",
+    programme: ["computer science", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "SEN 306",
+    programme: ["computer science", "software engineering"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "INS 204",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Muritala",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "DOM-SEN 102",
+    programme: ["software engineering"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr Ige",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "CSC 404",
+    programme: ["computer science"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "SSC 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "LO",
+  },
+  {
+    courseCode: "CHM 102/DOM-CHM 102",
+    programme: ["computer science", "cyber security", "software engineering", "biochemistry", "microbiology", "nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr John/Mrs Oyelahan",
+    venue: "LT",
+  },
+  {
+    courseCode: "CHM 454",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Olayemi",
+    venue: "LO",
+  },
+  {
+    courseCode: "ZOO 412",
+    programme: ["microbiology"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Olayinka",
+    venue: "MBL",
+  },
+  {
+    courseCode: "CYB 404",
+    programme: ["cyber security"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Okunlola",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CSC 492/CYB 492/SEN 492",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "ALL CSC LECTURERS",
+    venue: "SL",
+  },
+  {
+    courseCode: "DOM-MCB 214",
+    programme: ["microbiology"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Ms. Oloruntoba",
+    venue: "CAS 1",
+  },
+  {
+    courseCode: "CHM 302",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Mr Olaniran",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 416",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Dr Olaleye",
+    venue: "CSL",
+  },
+  {
+    courseCode: "CHM 420",
+    programme: ["biochemistry"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Dr Olojo/Mrs Oyelahan",
+    venue: "LO",
+  },
+  {
+    courseCode: "BCH 316",
+    programme: ["biochemistry"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Mr John",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "MCB 324",
+    programme: ["microbiology"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Taylor",
+    venue: "MBL",
+  },
+  {
+    courseCode: "CSC 310",
+    programme: ["computer science"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Aromavo",
+    venue: "HL",
+  },
+  {
+    courseCode: "CSC 406",
+    programme: ["computer science"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "SEN 306",
+    programme: ["software engineering"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran",
+    venue: "SL",
+  },
+  {
+    courseCode: "DOM-CYB 206",
+    programme: ["cyber security"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Mr Okunlola",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "DOM-CSC 204",
+    programme: ["computer science"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "12:00" }],
+    lecturer: "Dr Ayeni",
+    venue: "HL",
+  },
+];
+
+export const courses_fasms = [
+
+  // ==================== MONDAY (day: 1) ====================
+
+  {
+    courseCode: "GST 212",
+    programme: ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Olanisebe",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "MGT 322",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Oshevire",
+    venue: "NR",
+  },
+  {
+    courseCode: "ACC 426",
+    programme: ["accounting"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr Olayinka",
+    venue: "ENT",
+  },
+  {
+    courseCode: "ECO 408",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr Oyedele",
+    venue: "LO",
+  },
+  {
+    courseCode: "ECO 310",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 312",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "MAS 402",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "DOM-COM 202",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Ms Aluko",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "ACC 325",
+    programme: ["accounting"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs Udeme",
+    venue: "NR",
+  },
+  {
+    courseCode: "ECO 414",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 410",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Alabi",
+    venue: "LO",
+  },
+  {
+    courseCode: "ECO 312",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Oyedele",
+    venue: "LO",
+  },
+  {
+    courseCode: "CSS 204",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Aruoture",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CRM 304",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs Olanisebe",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "DOM-ACC 202",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Udeme",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "BUA 202/DOM-BUA 202",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr Oluwajinmi",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 318",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr. Oshevire",
+    venue: "NR",
+  },
+  {
+    courseCode: "DOM-IRP 122/DOM-PSY 201",
+    programme: ["industrial and personnel management"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "LT",
+  },
+  {
+    courseCode: "ACC 323",
+    programme: ["accounting"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr Olayinka",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "ACC 422",
+    programme: ["accounting"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Ms Fanimokun",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "BUA 218",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Alabi",
+    venue: "LO",
+  },
+  {
+    courseCode: "ACC 302",
+    programme: ["accounting"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms Fanimokun",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CSS 104",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "DOM-MAS 202",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "MAS 416",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr Afolabi",
+    venue: "ENT",
+  },
+  {
+    courseCode: "MAS 310",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 1, startTime: "16:00", endTime: "18:00" }],
+    lecturer: "Dr. Iloh",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CRM 402",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 1, startTime: "16:00", endTime: "18:00" }],
+    lecturer: "Dr. Tekene",
+    venue: "ASM 3",
+  },
+
+  // ==================== TUESDAY (day: 2) ====================
+
+  {
+    courseCode: "MAS 402",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "MAS 324",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Sam-Olaniyan",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "AMS 102/ECO 104",
+    programme: ["economics"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Opadeji",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "DOM-ACC 202",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Udeme",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "ECO 308",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Opadeji",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 410",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Akoma",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "MAS 410",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Iloh",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MCM 210",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Biyi Alabi",
+    venue: "NR",
+  },
+  {
+    courseCode: "MCM 206",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Afolabi",
+    venue: "LO",
+  },
+  {
+    courseCode: "ACC 102/DOM-ACC 102",
+    programme: ["accounting"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Udeme",
+    venue: "ENT",
+  },
+  {
+    courseCode: "MAS 318",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Iloh",
+    venue: "LO",
+  },
+  {
+    courseCode: "EHR 208",
+    programme: ["industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-CRM 108",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Barrister Adetoyinbo",
+    venue: "CAS 2",
+  },
+  {
+    courseCode: "ACC 402",
+    programme: ["accounting"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Prof. Ewetade",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUA 102",
+    programme: ["business administration"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr. Oshevire",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "ECO 328",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Oyedele",
+    venue: "LO",
+  },
+  {
+    courseCode: "MGT 320/IRP 314",
+    programme: ["business administration", "industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Alabi",
+    venue: "FL",
+  },
+  {
+    courseCode: "EHR 206",
+    programme: ["industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Oluwajinmi",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 416",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Barrister Adetoyinbo",
+    venue: "FL",
+  },
+  {
+    courseCode: "MAS 304",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Alade",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "CMS 102",
+    programme: ["industrial and personnel management"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Afolabi",
+    venue: "ENT",
+  },
+  {
+    courseCode: "MCM 208",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Biyi Alabi",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MCM 212",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Iloh",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "CRM 322",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Aruoture",
+    venue: "ENT",
+  },
+  {
+    courseCode: "EHR 202",
+    programme: ["industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Jonah",
+    venue: "LO",
+  },
+  {
+    courseCode: "IRP 318",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "11:15", endTime: "12:15" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 414",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Alabi",
+    venue: "FL",
+  },
+  {
+    courseCode: "ACC 206/ACC 327",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr Olayinka",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CSS 102",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs. Olanisebe",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MCM 216",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Sam-Olaniyan",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "ECO 206",
+    programme: ["economics"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Mr. Olusegun Alfred",
+    venue: "FL",
+  },
+  {
+    courseCode: "MCM 202",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "IRP 406/IRP 310",
+    programme: ["industrial and personnel management"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Dr. Olayinka",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-CRM 106",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Tekene",
+    venue: "LT",
+  },
+  {
+    courseCode: "BUS 314",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr. Oshevire",
+    venue: "FL",
+  },
+  {
+    courseCode: "ECO 304",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Oyedele",
+    venue: "LO",
+  },
+  {
+    courseCode: "EHR 208",
+    programme: ["industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "MAS 312",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Alade",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CSS 206",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Akoma",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MCM 102/MAS 208",
+    programme: ["mass communication"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Iloh",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "ACC 424",
+    programme: ["accounting"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Prof. Ewetade",
+    venue: "LO",
+  },
+  {
+    courseCode: "MAS 412",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mrs Sam-Olaniyan",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "MCM 204/MAS 203",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Alade",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "ACC 422",
+    programme: ["accounting"],
+    level: "400",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms Fanimokun",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "CSS 104",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "14:00", endTime: "15:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "LT",
+  },
+
+  // ==================== WEDNESDAY (day: 3) ====================
+
+  {
+    courseCode: "ECO 202",
+    programme: ["economics"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr. Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "SSC 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Ayediran/Mr Egor",
+    venue: "SL",
+  },
+  {
+    courseCode: "BUS 312",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr Oluwajinmi",
+    venue: "FL",
+  },
+  {
+    courseCode: "DOM-CSS 210",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Aruotur",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "BUA 216",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Fanimokun",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 310",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Barrister Adetoyinbo",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "ACC 206/ACC 327",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr Olayinka",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "BUA 216",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Ms Fanimokun",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 306",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Alabi",
+    venue: "LO",
+  },
+  {
+    courseCode: "ACC 323",
+    programme: ["accounting"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Olayinka",
+    venue: "NR",
+  },
+  {
+    courseCode: "ECO 426",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 412",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "DOM-CSS 208",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Tekene",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "ACC 204/DOM-ACC 204",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Udeme",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "MGT 320",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Alabi",
+    venue: "NR",
+  },
+  {
+    courseCode: "BUS 404",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr Oluwajinmi",
+    venue: "LO",
+  },
+  {
+    courseCode: "MAS 316",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Dr. Alade",
+    venue: "ENT",
+  },
+  {
+    courseCode: "DOM-IRP 122/DOM-PSY 201",
+    programme: ["industrial and personnel management"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "LT",
+  },
+  {
+    courseCode: "DOM-ECO 204",
+    programme: ["economics"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Adekanmbi",
+    venue: "ENT",
+  },
+  {
+    courseCode: "BUS 318",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Mr. Oshevire",
+    venue: "FL",
+  },
+  {
+    courseCode: "AMS 104",
+    programme: ["economics"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Olayinka",
+    venue: "LO",
+  },
+  {
+    courseCode: "ECO 404",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Oyedele",
+    venue: "LO",
+  },
+  {
+    courseCode: "CRM 404",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Afatakpa/Mrs. Olanisebe",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "MAS 408",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 3, startTime: "16:00", endTime: "18:00" }],
+    lecturer: "Dr Iloh",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "CRM 316",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 3, startTime: "16:00", endTime: "18:00" }],
+    lecturer: "Dr. Tekene",
+    venue: "ASM 3",
+  },
+
+  // ==================== THURSDAY (day: 4) ====================
+
+  {
+    courseCode: "GST 112",
+    programme: ["accounting", "business administration", "economics", "mass communication", "criminology and security studies", "industrial and personnel management"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Akoma",
+    venue: "CAS 3",
+  },
+  {
+    courseCode: "BUS 414",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Alabi",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-LAW 202",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr. Oshevire",
+    venue: "NR",
+  },
+  {
+    courseCode: "ECO 316",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Olaleye",
+    venue: "FL",
+  },
+  {
+    courseCode: "IRP 320",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Fanimokun",
+    venue: "LO",
+  },
+  {
+    courseCode: "CSS 202",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Barrister Adetoyinbo",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MAS 404",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Shoroye",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "SSC 202",
+    programme: ["computer science", "cyber security", "software engineering"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "09:15", endTime: "10:15" }],
+    lecturer: "Ms Ayediran/Mr Egor",
+    venue: "SL",
+  },
+  {
+    courseCode: "MCM 320",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Shoroye",
+    venue: "NR",
+  },
+  {
+    courseCode: "DOM-CSS 214",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Olanisebe",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "DOM-MAS 104",
+    programme: ["mass communication"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ENT",
+  },
+  {
+    courseCode: "DOM-ECO 102/ECO 102",
+    programme: ["economics"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Opadeji",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "DOM-ECO 210",
+    programme: ["economics"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Olaleye",
+    venue: "FL",
+  },
+  {
+    courseCode: "ACC 204/DOM-ACC 204",
+    programme: ["accounting"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs Udeme",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "MAS 314",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Afolabi",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "CRM 308",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Akoma",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "DOM-CRM 102",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Tekene",
+    venue: "ENT",
+  },
+  {
+    courseCode: "MCM 322",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Aruoture",
+    venue: "ENT",
+  },
+  {
+    courseCode: "EHR 202",
+    programme: ["industrial and personnel management"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Jonah",
+    venue: "LO",
+  },
+  {
+    courseCode: "IRP 318",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "11:15", endTime: "12:15" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "ECO 306",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Opadeji",
+    venue: "NR",
+  },
+  {
+    courseCode: "BUA/DOM-BUA 204",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Olayinka",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "ECO 302",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Olaleye",
+    venue: "FL",
+  },
+  {
+    courseCode: "BUS 410",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Alabi",
+    venue: "NR",
+  },
+  {
+    courseCode: "MAS 302",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Afolabi",
+    venue: "ENT",
+  },
+  {
+    courseCode: "ECO 402",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Olaleye",
+    venue: "FL",
+  },
+  {
+    courseCode: "BUA 202/DOM-BUA 202",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Oluwajimi",
+    venue: "LO",
+  },
+  {
+    courseCode: "MGT 302",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr Alabi",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "CRM 408",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "MAS 306",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Victor-Tade",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "MCM 104",
+    programme: ["mass communication"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Alade",
+    venue: "ENT",
+  },
+  {
+    courseCode: "ECO 420",
+    programme: ["economics"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Opadeji",
+    venue: "LO",
+  },
+  {
+    courseCode: "ACC 302",
+    programme: ["accounting"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Fanimokun",
+    venue: "FL",
+  },
+  {
+    courseCode: "MCM 214",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Sam-Olaniyan",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "MAS 308",
+    programme: ["mass communication"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Shoroye",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "DOM-ECO 106",
+    programme: ["economics"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "IRP 316",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-MAS 204",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr. Afolabi",
+    venue: "ENT",
+  },
+  {
+    courseCode: "IRP 318",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "11:15", endTime: "12:15" }],
+    lecturer: "Dr. Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "MCM 106",
+    programme: ["mass communication"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Miss Aluko",
+    venue: "ASM 4",
+  },
+  {
+    courseCode: "ACC 102/DOM-ACC 102",
+    programme: ["accounting"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Udeme",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "CRM 406",
+    programme: ["criminology and security studies"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Tekene",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "IRP 312",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "17:00" }],
+    lecturer: "Digital skill Acquisition",
+    venue: "LT",
+  },
+  {
+    courseCode: "CRM 302",
+    programme: ["criminology and security studies"],
+    level: "300",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Barrister Adetoyinbo",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "MAS 414",
+    programme: ["mass communication"],
+    level: "400",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Shoroye",
+    venue: "ASM 3",
+  },
+  {
+    courseCode: "DOM-MAS 206",
+    programme: ["mass communication"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Dr. Alade",
+    venue: "ASM 4",
+  },
+
+  // ==================== FRIDAY (day: 5) ====================
+
+  {
+    courseCode: "ECO 314",
+    programme: ["economics"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Adekanbi",
+    venue: "LO",
+  },
+  {
+    courseCode: "IRP 316",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "09:15", endTime: "11:15" }],
+    lecturer: "Dr Alase",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 404",
+    programme: ["business administration"],
+    level: "400",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr Oluwajinmi",
+    venue: "LO",
+  },
+  {
+    courseCode: "DOM-CSS 212",
+    programme: ["criminology and security studies"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mrs Olanisebe",
+    venue: "ASM 2",
+  },
+  {
+    courseCode: "CSS 102",
+    programme: ["criminology and security studies"],
+    level: "100",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs. Olanisebe",
+    venue: "ASM 1",
+  },
+  {
+    courseCode: "DOM-ECO 212",
+    programme: ["economics"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Oyedele",
+    venue: "FL",
+  },
+  {
+    courseCode: "BUA/DOM-BUA 204",
+    programme: ["business administration"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Olayinka",
+    venue: "LO",
+  },
+  {
+    courseCode: "BUS 322",
+    programme: ["business administration"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr. Oshevire",
+    venue: "NR",
+  },
+  {
+    courseCode: "IRP 312",
+    programme: ["industrial and personnel management"],
+    level: "300",
+    dayAndTime: [{ day: 5, startTime: "14:00", endTime: "17:00" }],
+    lecturer: "Digital skill Acquisition",
+    venue: "LT",
+  },
+];
+
+export const courses_fahs = [
+
+  // ==================== MONDAY (day: 1) ====================
+
+  {
+    courseCode: "BIO 102",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Akoun/Mrs Oluwajinmi",
+    venue: "LT",
+  },
+  {
+    courseCode: "NSC 206",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Ajileye",
+    venue: "FAHS I",
+  },
+  {
+    courseCode: "PHS 204",
+    programme: ["nursing", "public health"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Olusegun Alfred",
+    venue: "FAHS I",
+  },
+  {
+    courseCode: "ANA 204",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "11:15", endTime: "12:15" }],
+    lecturer: "Dr. Balogun",
+    venue: "FAHS I",
+  },
+  {
+    courseCode: "DOM-MLS 204",
+    programme: ["MLS"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Ajileye",
+    venue: "FAHS II",
+  },
+  {
+    courseCode: "CHM 108",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "14:00", endTime: "17:00" }],
+    lecturer: "Mrs Hassan",
+    venue: "CSL",
+  },
+  {
+    courseCode: "DOM-IRP 122/DOM-PSY 201",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "LT",
+  },
+  {
+    courseCode: "ANA 204",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Dr. Balogun",
+    venue: "FAHS I",
+  },
+  {
+    courseCode: "ANA 202",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 1, startTime: "15:00", endTime: "17:00" }],
+    lecturer: "Dr. Balogun",
+    venue: "FAHS I",
+  },
+
+  // ==================== TUESDAY (day: 2) ====================
+
+  {
+    courseCode: "GST 112",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "LT",
+  },
+  {
+    courseCode: "DOM-PHE 206",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "MS Arewa",
+    venue: "FAHS II",
+  },
+  {
+    courseCode: "BCH 202",
+    programme: ["nursing", "MLS"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr. Olaleye/Mr Akinboro",
+    venue: "CSL",
+  },
+  {
+    courseCode: "PHS 204",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs John",
+    venue: "FAHS II",
+  },
+  {
+    courseCode: "BIO 108",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mrs Oyelahan",
+    venue: "MBL",
+  },
+  {
+    courseCode: "NSC 202",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Nurses Kolade & Lawal",
+    venue: "FAHS 1",
+  },
+  {
+    courseCode: "DOM-PHE 212",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 2, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Ms Arewa",
+    venue: "FAHS II",
+  },
+
+  // ==================== WEDNESDAY (day: 3) ====================
+
+  {
+    courseCode: "GST 212",
+    programme: ["nursing", "public health", "MLS"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Dr. Imaledo",
+    venue: "LT",
+  },
+  {
+    courseCode: "DOM-NSC 102/MTH 102",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mr Ajayi",
+    venue: "LT",
+  },
+  {
+    courseCode: "PIO 212",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Ms Oyelade",
+    venue: "FAHS I",
+  },
+  {
+    courseCode: "PSY 201/DOM-PSY 201/DOM-MLS 122",
+    programme: ["nursing", "public health", "MLS"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Mr Aruoture",
+    venue: "ENT",
+  },
+  {
+    courseCode: "PIO 214",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Ms Oyelade",
+    venue: "FAHS II",
+  },
+  {
+    courseCode: "PHY 108",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 3, startTime: "14:00", endTime: "17:00" }],
+    lecturer: "Mr Akingba",
+    venue: "HL",
+  },
+  {
+    courseCode: "PIO 216",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 3, startTime: "15:00", endTime: "17:00" }],
+    lecturer: "Ms Oyelade",
+    venue: "FAHS II",
+  },
+
+  // ==================== THURSDAY (day: 4) ====================
+
+  {
+    courseCode: "PHY 102",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr Iwasokun",
+    venue: "LT",
+  },
+  {
+    courseCode: "NSC 202",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Dr Olabisi/Dr. Bello/Mrs Azeez",
+    venue: "FAHS 1",
+  },
+  {
+    courseCode: "DOM-PHE 208",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Mrs John",
+    venue: "FAHS II",
+  },
+  {
+    courseCode: "DOM-NSC 202",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "15:00" }],
+    lecturer: "Dr. Bello/Mrs Azeez",
+    venue: "FAHS 1",
+  },
+  {
+    courseCode: "DOM-MCB 102/DOM-NSC/MLS 104",
+    programme: ["nursing", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 4, startTime: "13:00", endTime: "14:00" }],
+    lecturer: "Dr. Taylor/Mrs Olayinka",
+    venue: "LT",
+  },
+
+  // ==================== FRIDAY (day: 5) ====================
+
+  {
+    courseCode: "CHM 102/DOM-CHM 102",
+    programme: ["nursing", "public health", "MLS"],
+    level: "100",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Mr John/Mrs Oyelahan",
+    venue: "LT",
+  },
+  {
+    courseCode: "DOM-PHE 210",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "08:15", endTime: "09:15" }],
+    lecturer: "Ms Arewa",
+    venue: "Field work",
+  },
+  {
+    courseCode: "NSC 202",
+    programme: ["nursing"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Nurses Lawal & Kolade",
+    venue: "FAHS 1",
+  },
+  {
+    courseCode: "DOM-PHE 210",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "10:15", endTime: "11:15" }],
+    lecturer: "Ms Arewa",
+    venue: "Field work",
+  },
+  {
+    courseCode: "DOM-MLS 202",
+    programme: ["MLS"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "15:00", endTime: "17:00" }],
+    lecturer: "Dr Adewole",
+    venue: "FAHS 1",
+  },
+  {
+    courseCode: "DOM-PHE 210",
+    programme: ["public health"],
+    level: "200",
+    dayAndTime: [{ day: 5, startTime: "14:00", endTime: "16:00" }],
+    lecturer: "Ms Arewa",
+    venue: "Field work",
+  },
+];
+
+export const courses = [...courses_fasms,...courses_fcas,...courses_fahs]
