@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { getProgrammes, getSchedule } from '../helpers'
-import ClassCard from '../components/ClassCard'
+import { getProgrammes, getSchedule } from '../../helpers'
+import ClassCard from '../../components/ClassCard'
 import { useEffect, useState } from 'react'
 
-export const Route = createFileRoute('/')({
+export const Route = createFileRoute('/_main/')({
     component: RouteComponent,
 })
 
@@ -20,12 +20,15 @@ function RouteComponent() {
 
     useEffect(() => {
         setFilteredCourses(getSchedule(selectedProgramme).filter(c => selectedLevel == 'all levels' ? c : c.level == selectedLevel))
-    }, [selectedLevel, selectedProgramme])
+    }, [selectedLevel, selectedProgramme , getSchedule])
 
     return (
         <div className='flex-1 flex flex-col p-4 gap-2'>
             <Link className='btn btn-primary mx-auto w-full md:w-100' to="/matric-check">
                 Check A Student
+            </Link>
+            <Link className='btn btn-primary mx-auto w-full md:w-100' to="/timetable">
+                Check Timetable
             </Link>
             <div className='flex flex-col md:flex-row w-full items-center justify-center gap-2'>
                 <select value={selectedProgramme} onChange={(e) => setSelectedProgramme(e.target.value)} className="select select-primary not-md:flex-1">

@@ -1,11 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import { isClassHolding } from '../helpers'
-import MainView from '../views/MainView'
-import ResultView from '../views/ResultView'
-import { courses } from '../data'
+import { isClassHolding } from '../../helpers'
+import MainView from '../../views/MainView'
+import ResultView from '../../views/ResultView'
+import { courses } from '../../data'
 
-export const Route = createFileRoute('/matric-check')({
+export const Route = createFileRoute('/_main/matric-check')({
     component: RouteComponent,
 })
 
