@@ -30,7 +30,7 @@ function RouteComponent() {
             .filter(c => c.dayAndTime.some(d => d.day == i))
             .filter(c => programme != 'all programmes' ? c.programme.includes(programme) : true)
             .filter(c => level != 'all levels' ? c.level == level : true)
-            .filter(c => c.lecturer.toLowerCase() == lecturer)
+            .filter(c => lecturer == 'all lecturers' ? c.lecturer.toLowerCase() == lecturer : true)
           , i)
     })
 
