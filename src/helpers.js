@@ -35,6 +35,15 @@ export function getProgrammes() {
     return cleaned
 }
 
+export function getLecturers() {
+
+    const all = courses.map(c => c.lecturer).map(c => c.toLowerCase())
+
+    const cleaned = [...new Set(all)]
+
+    return cleaned
+}
+
 
 // Get current time (in 24-hour format)
 
@@ -121,8 +130,6 @@ export function timetableDayLayoutAlgorithm(courses, day) {
 
         if (currentHourInMinutes > endHourInMinutes) currentHourInMinutes = startHourInMinutes
     }
-
-    // console.log(layout)
 
     return layout
 }

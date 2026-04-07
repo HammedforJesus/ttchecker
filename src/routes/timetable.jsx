@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { courses, courses_fcas } from '../data'
 import { useEffect, useState } from 'react'
-import { getProgrammes, timetableDayLayoutAlgorithm } from '../helpers'
+import { getLecturers, getProgrammes, timetableDayLayoutAlgorithm } from '../helpers'
 
 export const Route = createFileRoute('/timetable')({
   component: RouteComponent,
@@ -12,11 +12,13 @@ function RouteComponent() {
   const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 
   const programmes = ['all programmes', ...getProgrammes()]
+  const lecturers = ['all lecturers', ...getLecturers()]
   const [structured, setStructured] = useState({})
   const [level, setLevel] = useState('all levels')
+  const [lecturer, setLecturer] = useState('all levels')
   const [programme, setProgramme] = useState(programmes[0])
 
-  const rebuildLayout = (programme, level) => {
+  const rebuildLayout = (programme, level , lecturer) => {
     const structured = {}
 
     Array.from({ length: 7 }).forEach((_, i) => {
@@ -28,6 +30,7 @@ function RouteComponent() {
             .filter(c => c.dayAndTime.some(d => d.day == i))
             .filter(c => programme != 'all programmes' ? c.programme.includes(programme) : true)
             .filter(c => level != 'all levels' ? c.level == level : true)
+            .filter(c => lecturer == 'all lecturers' ? c.lecturer.toLowerCase() == lecturer : true)
           , i)
     })
 
@@ -35,8 +38,8 @@ function RouteComponent() {
   }
 
   useEffect(() => {
-    setStructured(rebuildLayout(programme, level))
-  }, [programme, level])
+    setStructured(rebuildLayout(programme, level , lecturer))
+  }, [programme, level , lecturer])
 
   return (
     <main className='size-full flex flex-col'>
@@ -45,16 +48,29 @@ function RouteComponent() {
         <Link className='btn btn-primary mx-auto w-full md:w-100' to="/">
           Go Back
         </Link>
-        <select value={programme} onChange={(e) => setProgramme(e.target.value)} className="select select-primary not-md:flex-1">
+        <select value={programme} onChange={(e) => setProgramme(e.target.value)} className="select-lg select select-primary not-md:flex-1">
           <option disabled={true}>Select a programme</option>
           {programmes.map((p, i) => (
             <option key={i} value={p.toLowerCase()}>{p.toUpperCase()}</option>
           ))}
         </select>
 
-        <select value={level} onChange={(e) => setLevel(e.target.value)} className="select select-primary not-md:flex-1">
+        <select
+          value={level}
+          onChange={(e) => setLevel(e.target.value)} className="select-lg select select-primary not-md:flex-1"
+        >
           <option disabled={true}>Select a level</option>
           {['all levels', '100', '200', '300', '400'].map((p, i) => (
+            <option key={i} value={p}>{p.toUpperCase()}</option>
+          ))}
+        </select>
+
+        <select
+          value={lecturer}
+          onChange={(e) => setLecturer(e.target.value)} className="select-lg select select-primary not-md:flex-1"
+        >
+          <option disabled={true}>Select a level</option>
+          {lecturers.map((p, i) => (
             <option key={i} value={p}>{p.toUpperCase()}</option>
           ))}
         </select>

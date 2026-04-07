@@ -31,14 +31,14 @@ function RouteComponent() {
                 Check Timetable
             </Link>
             <div className='flex flex-col md:flex-row w-full items-center justify-center gap-2'>
-                <select value={selectedProgramme} onChange={(e) => setSelectedProgramme(e.target.value)} className="select select-primary not-md:flex-1">
+                <select value={selectedProgramme} onChange={(e) => setSelectedProgramme(e.target.value)} className="select-lg select select-primary not-md:flex-1">
                     <option disabled={true}>Select a programme</option>
                     {programmes.map((p, i) => (
                         <option key={i} value={p.toLowerCase()}>{p.toUpperCase()}</option>
                     ))}
                 </select>
 
-                <select value={selectedLevel} onChange={(e) => setSelectedLevel(e.target.value)} className="select select-primary md:w-max not-md:flex-1">
+                <select value={selectedLevel} onChange={(e) => setSelectedLevel(e.target.value)} className="select-lg select select-primary md:w-max not-md:flex-1">
                     <option disabled={true}>Select a level</option>
                     {['all levels', '100', '200', '300', '400'].map((p, i) => (
                         <option key={i} value={p}>{p.toUpperCase()}</option>
