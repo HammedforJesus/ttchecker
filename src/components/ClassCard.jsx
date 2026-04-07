@@ -2,7 +2,7 @@ import { BookIcon, Clock10Icon, GroupIcon, MapPinIcon, UserIcon } from "lucide-r
 
 
 
-export default function ClassCard({ courseCode , level , dayAndTime , lecturer , venue , active }) {
+export default function ClassCard({ courseCode , level , dayAndTime , lecturer , venue }) {
 
 
     return (
@@ -21,7 +21,7 @@ export default function ClassCard({ courseCode , level , dayAndTime , lecturer ,
                         <p>{dayAndTime[0].startTime} - {dayAndTime[0].endTime}</p>
                     </div>
 
-                    <div className={`badge ${ active ? 'badge-primary animate-pulse' : 'badge-error' }`}>{ active ? "Class Holding" : "Not in session" }</div>
+                    <div className={`badge ${ dayAndTime[0].classActive ? 'badge-primary animate-pulse' : 'badge-error' }`}>{ dayAndTime[0].classActive ? "Class Holding" : "Not in session" }</div>
                 </div>
             </div>
         </div>

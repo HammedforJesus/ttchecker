@@ -9,68 +9,109 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as MatricCheckRouteImport } from './routes/matric-check'
-import { Route as IndexRouteImport } from './routes/index'
+import { Route as TimetableRouteImport } from './routes/timetable'
+import { Route as MainRouteImport } from './routes/_main'
+import { Route as MainIndexRouteImport } from './routes/_main/index'
+import { Route as MainMatricCheckRouteImport } from './routes/_main/matric-check'
 
-const MatricCheckRoute = MatricCheckRouteImport.update({
-  id: '/matric-check',
-  path: '/matric-check',
+const TimetableRoute = TimetableRouteImport.update({
+  id: '/timetable',
+  path: '/timetable',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
+const MainRoute = MainRouteImport.update({
+  id: '/_main',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MainIndexRoute = MainIndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => MainRoute,
+} as any)
+const MainMatricCheckRoute = MainMatricCheckRouteImport.update({
+  id: '/matric-check',
+  path: '/matric-check',
+  getParentRoute: () => MainRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
-  '/matric-check': typeof MatricCheckRoute
+  '/': typeof MainIndexRoute
+  '/timetable': typeof TimetableRoute
+  '/matric-check': typeof MainMatricCheckRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
-  '/matric-check': typeof MatricCheckRoute
+  '/timetable': typeof TimetableRoute
+  '/matric-check': typeof MainMatricCheckRoute
+  '/': typeof MainIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/': typeof IndexRoute
-  '/matric-check': typeof MatricCheckRoute
+  '/_main': typeof MainRouteWithChildren
+  '/timetable': typeof TimetableRoute
+  '/_main/matric-check': typeof MainMatricCheckRoute
+  '/_main/': typeof MainIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/matric-check'
+  fullPaths: '/' | '/timetable' | '/matric-check'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/matric-check'
-  id: '__root__' | '/' | '/matric-check'
+  to: '/timetable' | '/matric-check' | '/'
+  id: '__root__' | '/_main' | '/timetable' | '/_main/matric-check' | '/_main/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
-  MatricCheckRoute: typeof MatricCheckRoute
+  MainRoute: typeof MainRouteWithChildren
+  TimetableRoute: typeof TimetableRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/matric-check': {
-      id: '/matric-check'
-      path: '/matric-check'
-      fullPath: '/matric-check'
-      preLoaderRoute: typeof MatricCheckRouteImport
+    '/timetable': {
+      id: '/timetable'
+      path: '/timetable'
+      fullPath: '/timetable'
+      preLoaderRoute: typeof TimetableRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
+    '/_main': {
+      id: '/_main'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof MainRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_main/': {
+      id: '/_main/'
       path: '/'
       fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
+      preLoaderRoute: typeof MainIndexRouteImport
+      parentRoute: typeof MainRoute
+    }
+    '/_main/matric-check': {
+      id: '/_main/matric-check'
+      path: '/matric-check'
+      fullPath: '/matric-check'
+      preLoaderRoute: typeof MainMatricCheckRouteImport
+      parentRoute: typeof MainRoute
     }
   }
 }
 
+interface MainRouteChildren {
+  MainMatricCheckRoute: typeof MainMatricCheckRoute
+  MainIndexRoute: typeof MainIndexRoute
+}
+
+const MainRouteChildren: MainRouteChildren = {
+  MainMatricCheckRoute: MainMatricCheckRoute,
+  MainIndexRoute: MainIndexRoute,
+}
+
+const MainRouteWithChildren = MainRoute._addFileChildren(MainRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
-  MatricCheckRoute: MatricCheckRoute,
+  MainRoute: MainRouteWithChildren,
+  TimetableRoute: TimetableRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
