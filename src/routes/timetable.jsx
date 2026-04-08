@@ -15,7 +15,7 @@ function RouteComponent() {
   const lecturers = ['all lecturers', ...getLecturers()]
   const [structured, setStructured] = useState({})
   const [level, setLevel] = useState('all levels')
-  const [lecturer, setLecturer] = useState('all levels')
+  const [lecturer, setLecturer] = useState(lecturers[0])
   const [programme, setProgramme] = useState(programmes[0])
 
   const rebuildLayout = (programme, level , lecturer) => {
@@ -30,7 +30,7 @@ function RouteComponent() {
             .filter(c => c.dayAndTime.some(d => d.day == i))
             .filter(c => programme != 'all programmes' ? c.programme.includes(programme) : true)
             .filter(c => level != 'all levels' ? c.level == level : true)
-            .filter(c => lecturer == 'all lecturers' ? c.lecturer.toLowerCase() == lecturer : true)
+            .filter(c => lecturer != 'all lecturers' ? c.lecturer.toLowerCase() == lecturer : true)
           , i)
     })
 
